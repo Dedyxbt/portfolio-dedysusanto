@@ -68,3 +68,18 @@ header nav ul li a:hover {
     transform: scale(1.1); /* Membuat link sedikit membesar saat hover */
 }
 
+.hero {
+    background-image: url('images/parallax.jpg');
+    background-attachment: fixed; /* Efek Parallax */
+    background-size: cover;
+    height: 100vh; /* Agar gambar memenuhi layar */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.hero h1 {
+    font-size: 4rem;
+}
+
