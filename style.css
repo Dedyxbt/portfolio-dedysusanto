@@ -56,4 +56,15 @@ footer {
     padding: 10px;
 }
 
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+header nav ul li a:hover {
+    background-color: #555;
+    transform: scale(1.1); /* Membuat link sedikit membesar saat hover */
+}
 
